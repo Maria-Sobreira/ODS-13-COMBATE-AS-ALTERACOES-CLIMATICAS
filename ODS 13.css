@@ -1,0 +1,129 @@
+body{
+    height: auto;
+    background-color: rgb(255, 255, 255); 
+}
+header{
+    height: 100px;
+    background-image: linear-gradient(green, #02b302);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+nav{
+    height: 85px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+h2{
+    height: 150px;
+    color: black;
+}
+main{
+    height: auto;
+    background-image:url('Clima.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+section{
+    height: 200px;
+    width: 510px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: green;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+article{
+    height: 200px;
+    width: 745px;
+    margin-right: 7px;
+    margin-top: 12px;
+    background-color: white;
+    border-style: solid;
+    border-color: green;
+}
+aside{
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-style: solid;
+    border-color: green;
+}
+footer{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul{
+    height: 220px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    height: 70px;
+    width: 155px;
+    text-align: center;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+    text-decoration: solid;
+}
+.sus{
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+}
+.sus:hover{
+    text-decoration: solid;
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+}
+.sol{
+    color: black;
+}
+.sol:hover{
+    color: black;
+}
+.foto{
+    margin-left: 65px;
+    margin-top: 4px;
+    border-radius: 25px;
+}
